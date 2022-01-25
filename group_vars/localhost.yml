@@ -1,0 +1,12 @@
+homebrew_taps:
+  - homebrew/cask
+  - homebrew/core
+homebrew_packages:
+  - name: ansible
+  - name: git
+  - name: tree
+  - name: vim
+  - name: wget
+homebrew_cask_packages:
+  - name: google-chrome
+  - name: slack
