@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ANSIBLE_PATH=~/workspace/settings/pc-settings
+WORKSPACE_PATH=~/workspace/pc-settings/ansible
 
 ## command line tools
 xcode-select --install
@@ -12,9 +12,9 @@ xcode-select --install
 brew install ansible
 
 ## clone repo
-git clone -b template https://github.com/mzeand/pc-settings.git ${ANSIBLE_PATH}
+git clone https://github.com/mzeand/pc-settings.git ${WORKSPACE_PATH}
 
 ## ansible
-cd ${ANSIBLE_PATH}
+cd ${WORKSPACE_PATH}/ansible
 ls -l 
-#ansible-playbook -i inventory/localhost localhost.yml
+ansible-playbook -i inventory/localhost localhost.yml

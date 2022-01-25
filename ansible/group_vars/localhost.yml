@@ -7,6 +7,9 @@ homebrew_packages:
   - name: tree
   - name: vim
   - name: wget
+  - name: tmux
+  - name: tree
+  - name: jq
 homebrew_cask_packages:
   - name: google-chrome
   - name: slack
