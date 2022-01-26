@@ -13,3 +13,4 @@ homebrew_packages:
 homebrew_cask_packages:
   - name: google-chrome
   - name: slack
+  - name: visual-studio-code
