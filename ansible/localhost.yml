@@ -5,3 +5,5 @@
   roles:
     - homebrew
     - homebrew_cask
+    - awscli
+    
