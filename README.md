@@ -23,7 +23,13 @@ Confirm New Vault password:
 
 ```
 
-2. Run the playbook
+```group_vars/all.yml
+
+ansible_become_password: xxxxxxxxx
+
+```
+
+3. Run the playbook
 
 ```
 ansible-playbook -i inventory/localhost localhost.yml --ask-vault-pass
