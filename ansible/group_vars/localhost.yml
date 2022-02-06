@@ -14,7 +14,8 @@ homebrew_packages:
   - name: anyenv
   - name: terraformer
 homebrew_cask_packages:
-  - name: google-chrome
-  - name: slack
+  # - name: google-chrome
+  # - name: slack
+  - name: iterm2
   - name: visual-studio-code
   - name: aws-vault
