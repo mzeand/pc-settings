@@ -14,6 +14,8 @@ homebrew_packages:
   - name: anyenv
   - name: terraformer
   - name: packer
+  - name: suite-sparse
+  - name: golangci/tap/golangci-lint
 homebrew_cask_packages:
   # - name: google-chrome
   # - name: slack
