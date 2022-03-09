@@ -15,7 +15,6 @@ homebrew_packages:
   - name: pwgen
   - name: terraformer
   - name: packer
-  - name: suite-sparse
   - name: golangci/tap/golangci-lint
 homebrew_cask_packages:
   # - name: google-chrome
@@ -23,3 +22,8 @@ homebrew_cask_packages:
   - name: iterm2
   - name: visual-studio-code
   - name: aws-vault
+code_extensions:
+  - name: golang.go
+  - name: ms-azuretools.vscode-docker
+  - name: 42Crunch.vscode-openapi
+  - name: Gruntfuggly.todo-tree

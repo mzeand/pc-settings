@@ -1,0 +1,9 @@
+- block:
+    - name: zsh settings
+      template:
+        src: .zshrc
+        dest: "~"
+        mode: 0644
+
+  tags:
+    - zsh

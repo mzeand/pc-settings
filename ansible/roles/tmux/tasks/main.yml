@@ -1,0 +1,9 @@
+- block:
+    - name: tmux conf
+      template:
+        src: .tmux.conf
+        dest: "~"
+        mode: 0644
+
+  tags:
+    - tmux

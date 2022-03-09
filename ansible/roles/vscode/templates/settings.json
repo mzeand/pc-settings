@@ -1,2 +1,43 @@
 {
+    "redhat.telemetry.enabled": true,
+    "files.insertFinalNewline": true,
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
+    "editor.formatOnSave": true,
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "go.formatTool": "goimports",
+    "go.formatFlags": [
+        "-w"
+    ],
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.buildOnSave": "package",
+    "go.testOnSave": false,
+    "go.gocodeAutoBuild": true,
+    "go.installDependenciesWhenBuilding": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--config=${workspaceFolder}/.golangci.yaml",
+        "--fast"
+    ],
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.testEnvVars": {
+        "LOG_LEVEL": "debug",
+    },
+    "editor.fontSize": 10,
+    "go.toolsManagement.autoUpdate": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "go.testExplorer.showDynamicSubtestsInEditor": true,
 }
