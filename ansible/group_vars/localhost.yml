@@ -16,6 +16,9 @@ homebrew_packages:
   - name: terraformer
   - name: packer
   - name: golangci/tap/golangci-lint
+  - name: bash
+  - name: gnu-tar
+  - name: aquasecurity/trivy/trivy
 homebrew_cask_packages:
   # - name: google-chrome
   # - name: slack
@@ -27,3 +30,11 @@ code_extensions:
   - name: ms-azuretools.vscode-docker
   - name: 42Crunch.vscode-openapi
   - name: Gruntfuggly.todo-tree
+  - name: yzhang.markdown-all-in-one
+  - name: bierner.markdown-emoji
+  - name: redhat.vscode-yaml
+anyenv:
+  - name: goenv
+  - name: nodenv
+  - name: pyenv
+  - name: tfenv
