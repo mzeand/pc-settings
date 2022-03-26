@@ -3,10 +3,9 @@
   gather_facts: no
   become: no
   roles:
-    #- zsh
+    - zsh
     - homebrew
     - homebrew_cask
     - awscli
     - vscode
     - tmux
-    #- anyenv

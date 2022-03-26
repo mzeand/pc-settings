@@ -21,10 +21,10 @@
 
     when: result.rc == 1
 
-  - name: add completion to .zshrc
-    lineinfile:
-      path: ~/.zshrc
-      line: complete -C aws_completer aws
+  # - name: add completion to .zshrc
+  #   lineinfile:
+  #     path: ~/.zshrc
+  #     line: complete -C aws_completer aws
 
   tags:
     - awscli

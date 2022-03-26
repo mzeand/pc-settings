@@ -4,11 +4,19 @@ homebrew_taps:
 homebrew_packages:
   - name: ansible
   - name: git
+  - name: zsh-autosuggestions
+  - name: zsh-syntax-highlighting
+  - name: zsh-completions
+  - name: zsh-completion
+  #- name: coreutils
   - name: tree
+  - name: peco
   - name: vim
   - name: wget
   - name: tmux
   - name: tree
+  - name: gnu-sed
+  - name: awk
   - name: jq
   - name: direnv
   - name: anyenv
@@ -19,6 +27,7 @@ homebrew_packages:
   - name: bash
   - name: gnu-tar
   - name: aquasecurity/trivy/trivy
+  - name: go
 homebrew_cask_packages:
   # - name: google-chrome
   # - name: slack
@@ -27,14 +36,14 @@ homebrew_cask_packages:
   - name: aws-vault
 code_extensions:
   - name: golang.go
+  - name: 766b.go-outliner
+  - name: msyrus.go-doc
+  - name: ms-vsliveshare.vsliveshare
   - name: ms-azuretools.vscode-docker
   - name: 42Crunch.vscode-openapi
   - name: Gruntfuggly.todo-tree
   - name: yzhang.markdown-all-in-one
   - name: bierner.markdown-emoji
+  - name: GitHub.vscode-pull-request-github
   - name: redhat.vscode-yaml
-anyenv:
-  - name: goenv
-  - name: nodenv
-  - name: pyenv
-  - name: tfenv
+  - name: AquaSecurityOfficial.trivy-vulnerability-scanner

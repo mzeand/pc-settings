@@ -1,8 +1,0 @@
-- block:
-    - name: anyenv install
-      file: "/Users/mizueando/.anyenv/envs/{{ item.name }}"
-      raw: "anyenv install {{ item.name }}"
-      with_items: "{{ anyenv }}"
-
-  tags:
-    - anyenv
