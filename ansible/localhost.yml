@@ -6,6 +6,6 @@
     - zsh
     - homebrew
     - homebrew_cask
-    - awscli
-    - vscode
-    - tmux
+    # - awscli
+    # - vscode
+    # - tmux
