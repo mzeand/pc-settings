@@ -36,7 +36,7 @@
     "go.testEnvVars": {
         "LOG_LEVEL": "debug",
     },
-    "editor.fontSize": 10,
+    "editor.fontSize": 9,
     "go.toolsManagement.autoUpdate": true,
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "go.testExplorer.showDynamicSubtestsInEditor": true,

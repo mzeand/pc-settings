@@ -4,6 +4,7 @@ homebrew_taps:
 homebrew_packages:
   - name: ansible
   - name: git
+  - name: zsh
   - name: zsh-autosuggestions
   - name: zsh-syntax-highlighting
   - name: zsh-completions

@@ -52,6 +52,7 @@ alias trf='terraform'
 
 # aws-valult
 alias awsv='aws-vault'
+alias awsve='aws-vault exec'
 
 # awscli
 # complete -C aws_completer aws
@@ -86,6 +87,10 @@ function peco-cdr() {
 zle -N peco-cdr
 bindkey '^u' peco-cdr
 
+function find_cd() {
+    cd "$(find . -type d | peco)"
+}
+alias fc="find_cd"
 alias -g lb='`git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
 alias de='docker exec -it $(docker ps | peco | cut -d " " -f 1) /bin/bash'
 
