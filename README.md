@@ -1,3 +1,13 @@
+# PC Settings
+
+## Environment
+
+- My PC
+  - MacBook Air (M1, 2020)
+  - macOS Monterey
+
+## Install
+
 0. Install ansible
 ```
 xcode-select --install
