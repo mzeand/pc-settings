@@ -14,7 +14,7 @@ homebrew_packages:
   - name: peco
   - name: vim
   - name: wget
-  - name: tmux
+  # - name: tmux
   - name: tree
   - name: gnu-sed
   - name: awk
