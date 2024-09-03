@@ -30,12 +30,16 @@ homebrew_packages:
   - name: aquasecurity/trivy/trivy
   - name: go
   - name: lima
+  - name: docker
+  - name: colima
+  - name: gh
 homebrew_cask_packages:
   # - name: google-chrome
   # - name: slack
   - name: iterm2
   - name: visual-studio-code
   - name: aws-vault
+  - name: google-cloud-sdk
 code_extensions:
   - name: golang.go
   - name: 766b.go-outliner
