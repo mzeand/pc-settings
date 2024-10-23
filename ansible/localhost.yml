@@ -1,11 +1,9 @@
 - hosts: localhost
   connection: local
   gather_facts: no
-  become: no
   roles:
     - zsh
     - homebrew
     - homebrew_cask
     - awscli
     - vscode
-    - tmux

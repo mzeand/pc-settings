@@ -1,6 +1,5 @@
 homebrew_taps:
-  - homebrew/cask
-  - homebrew/core
+  - hashicorp/tap
 homebrew_packages:
   - name: ansible
   - name: git
@@ -15,34 +14,37 @@ homebrew_packages:
   - name: vim
   - name: wget
   # - name: tmux
-  - name: tree
   - name: gnu-sed
   - name: awk
   - name: jq
   - name: direnv
   - name: anyenv
   - name: pwgen
-  - name: terraformer
-  - name: packer
-  - name: golangci/tap/golangci-lint
   - name: bash
   - name: gnu-tar
-  - name: aquasecurity/trivy/trivy
-  - name: go
   - name: lima
   - name: docker
+  - name: docker-compose
+  - name: docker-buildx
   - name: colima
   - name: gh
-  - name: fujiwara/tap/lambroll
+  - name: go
+  - name: hashicorp/tap/terraform
 homebrew_cask_packages:
-  # - name: google-chrome
-  # - name: slack
+  - name: google-chrome
+  - name: slack
   - name: iterm2
   - name: visual-studio-code
   - name: aws-vault
   - name: google-cloud-sdk
+  - name: pritunl
+  - name: gather
+  - name: kindle
+  - name: zoom
+  - name: tableplus
 code_extensions:
   - name: golang.go
+  - name: xmtt.go-mod-grapher
   - name: 766b.go-outliner
   - name: msyrus.go-doc
   - name: ms-vsliveshare.vsliveshare
@@ -54,3 +56,16 @@ code_extensions:
   - name: GitHub.vscode-pull-request-github
   - name: redhat.vscode-yaml
   - name: AquaSecurityOfficial.trivy-vulnerability-scanner
+  - name: github.copilot
+  - name: github.copilot-chat
+  - name: eamodio.gitlens
+  - name: hashicorp.terraform
+  - name: hediet.vscode-drawio
+  - name: mhutchie.git-graph
+  - name: bierner.markdown-mermaid
+  - name: codestream.codestream
+  - name: jflbr.jwt-decoder
+  - name: khaeransori.json2csv
+  - name: humao.rest-client
+  - name: formulahendry.vscode-mysql
+  - name: ms-ossdata.vscode-postgresql
