@@ -1,5 +1,7 @@
 homebrew_taps:
   - hashicorp/tap
+  - kayac/tap
+  - fujiwara/tap
 homebrew_packages:
   - name: ansible
   - name: git
@@ -30,6 +32,8 @@ homebrew_packages:
   - name: gh
   - name: go
   - name: hashicorp/tap/terraform
+  - name: kayac/tap/ecspresso
+  - name: fujiwara/tap/lambroll
 homebrew_cask_packages:
   - name: google-chrome
   - name: slack
