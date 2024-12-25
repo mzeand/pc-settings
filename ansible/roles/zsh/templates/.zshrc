@@ -1,4 +1,4 @@
-export PS1="%F{cyan}(*'-')%f< %~ $ "
+export PS1="%F{cyan}(*'◡')%f< %~ $ "
 
 export PATH=/usr/local/bin:$PATH
 
@@ -37,7 +37,7 @@ export PATH=$TFENV_ROOT/bin:$PATH
 
 # Docker
 alias d='docker'
-alias dcm='docker-compose'
+alias dcm='docker compose'
 
 # Git
 alias gb='git branch'
@@ -45,7 +45,7 @@ alias gs='git status'
 alias gl='git log --graph'
 
 # tmux
-alias t='tmux'
+# alias t='tmux'
 
 # terraform
 alias trf='terraform'
@@ -59,6 +59,12 @@ alias awsve='aws-vault exec'
 
 # gun-sed
 alias sed='gsed'
+
+# Protobuf
+export PATH=$PATH:/usr/local/protobuf/bin
+
+# Golang
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 # peco
 function peco-select-history() {

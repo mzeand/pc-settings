@@ -16,8 +16,7 @@
       register: download
 
     - name: install awscli
-      become: yes
-      command: "installer -pkg {{ download.dest }} -target /"
+      command: "sudo installer -pkg {{ download.dest }} -target /"
 
     when: result.rc == 1
 
