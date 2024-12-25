@@ -34,6 +34,8 @@ homebrew_packages:
   - name: hashicorp/tap/terraform
   - name: kayac/tap/ecspresso
   - name: fujiwara/tap/lambroll
+  - name: leveldb
+  - name: geos
 homebrew_cask_packages:
   - name: google-chrome
   - name: slack
